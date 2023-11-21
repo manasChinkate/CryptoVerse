@@ -1,0 +1,48 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(36, 36, 36);
+    height: 80px;
+}
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    
+}
+.first h1{
+    color: rgb(255, 255, 255);
+}
+
+
+
+.second{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.second a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    
+}
+.btn{
+    padding: 10px 50px;
+    transition: all ease 0.5s;
+}
+
+.btn:hover{
+    background-color: rgb(255, 123, 0);
+    border-radius: 10px;
+    color: black;
+    font-weight: 700;
+    box-shadow: 0 0 30px rgba(117, 189, 22, 0.842);
+    
+}

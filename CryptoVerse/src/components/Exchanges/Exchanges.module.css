@@ -1,0 +1,70 @@
+.card1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    width: 90%;
+    height: 100px;
+    margin-left: 60px;
+    font-size: 20px;
+    
+    
+    
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    width: 90%;
+    height: 100px;
+
+    background-color: rgb(36, 36, 36);
+    margin-left: 60px;
+    border-radius: 10px;
+    transition: all ease-in-out 0.4s;
+    cursor: pointer;
+
+}
+
+.card:hover  {
+    background-color: rgb(255, 123, 0);
+   
+    color: black;
+    font-weight: 700;
+    box-shadow: 0 0 30px rgba(117, 189, 22, 0.842);
+    
+}
+
+
+.img {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 30px rgba(243, 242, 242, 0.452);
+}
+.name1{
+    width: 150px;
+    text-align: center;
+}
+
+
+.name {
+
+    width: 200px;
+    text-align: center;
+
+
+}
+.rank{
+    text-align: end;
+   
+   
+    width: 100px;
+}
+/* .rank1{
+    background-color: aqua;
+    width: 100px;
+} */
