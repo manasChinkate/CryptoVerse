@@ -1,9 +1,11 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
-import { getCoinData } from '../backend'
 import Nav from '../Nav/Nav'
 import styles from "./Coin.module.css";
 import axios from 'axios';
+import { Link } from 'react-router-dom';
+
+
 
 const Coin = () => {
 
@@ -54,6 +56,7 @@ const Coin = () => {
 
              const profit = data.price_change_24h>0
               return (
+                <Link to={`/coins/${data.id}`}  style={{color:'white',textDecoration:'none'}}>
                 <div className={styles.card}>
                   <div className={styles.img}>
                     <img style={{
@@ -67,12 +70,13 @@ const Coin = () => {
                   <div className={styles.price}>
                     {currencySymbol}  {data.current_price}
                   </div>
-                  <div className={styles.rank}>
+                  <div className={styles.rank} style={profit?{color:"green"}:{color:"red"}}>
                     { profit ? '+ ' + data.price_change_24h.toFixed(0) : data.price_change_24h.toFixed(2)}
                   </div>
 
                 </div>
 
+                </Link>
               )
             }))
           }

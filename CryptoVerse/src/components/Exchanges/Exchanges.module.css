@@ -23,7 +23,7 @@
     background-color: rgb(36, 36, 36);
     margin-left: 60px;
     border-radius: 10px;
-    transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.1s;
     cursor: pointer;
 
 }
