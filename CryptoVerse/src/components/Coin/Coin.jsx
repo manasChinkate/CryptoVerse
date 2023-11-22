@@ -54,7 +54,7 @@ const Coin = () => {
           {
             coins.map((data => {
 
-             const profit = data.price_change_24h>0
+             const profit = data?.price_change_24h>0
               return (
                 <Link to={`/coins/${data.id}`}  style={{color:'white',textDecoration:'none'}}>
                 <div className={styles.card}>

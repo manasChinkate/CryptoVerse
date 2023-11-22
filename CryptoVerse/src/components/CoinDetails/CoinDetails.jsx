@@ -1,17 +1,21 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-import { url } from '../backend'
-import axios from 'axios'
+
 import { useParams } from 'react-router-dom'
 import styles from "./CoinDetails.module.css";
 import { coinDetaill } from '../backend'
+import { IoPulseOutline } from "react-icons/io5";
+
 
 
 
 
 const CoinDetails = () => {
   const { id } = useParams();
-  const [coin, setCoin] = useState()
+  const [coin, setCoin] = useState({})
+  // const [loading, setLoading] = useState(false)
+
+ 
   
 
 
@@ -19,38 +23,46 @@ const CoinDetails = () => {
     coinDetaill(id).then(result => {
       // console.log("result : ", result.data)
       setCoin(result.data)
-      console.log(coin)
+      console.log(result.data)
+      
+      console.log(coin.name)
 
     })
 
   
 
-}, [id])
+}, [])
 return (
   <>
     <div className={styles.wrapper}>
       <div className={styles.left}>
         <div className={styles.updates}>
-          {coin.last_updated}
+          Last Updated : {coin.last_updated}
         </div>
         <div className={styles.img}>
-          <img src={coin.image.large} alt="" />
+          <img style={{
+            height:"180px"
+          }} src={coin.image?.large} alt="" />
         </div>
         <div className={styles.name}>
           {coin.name}
         </div>
         <div className={styles.price}>
-          ₹ {coin.market_data.current_price.inr}
+          ₹ {coin.market_data?.current_price.inr}
         </div>
         <div className={styles.trade}>
 
-          {coin.market_data.market_cap_change_percentage_24h_in_currency.inr} %
+         
+         {coin.market_data?.market_cap_change_percentage_24h_in_currency.inr} %
         </div>
         <div className={styles.rank}>
-          # {coin.market_cap_rank}
+        <IoPulseOutline style={{
+          fontSize:"30px",
+          color:"red"
+        }} />  # {coin.market_cap_rank}
         </div>
         <div className={styles.desc}>
-          {coin.description['en'].split('.')[0]}
+          {coin.description?.en.split('.')[0]}
         </div>
       </div>
 
