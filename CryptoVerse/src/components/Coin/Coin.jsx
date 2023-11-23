@@ -41,7 +41,7 @@ const Coin = () => {
             <div className={styles.name1}>
               Name
             </div>
-            <div className={styles.price}>
+            <div className={styles.price1}>
               Price
             </div>
             <div className={styles.rank1}>

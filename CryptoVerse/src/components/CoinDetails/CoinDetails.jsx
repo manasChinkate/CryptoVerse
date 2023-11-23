@@ -5,6 +5,7 @@ import { useParams } from 'react-router-dom'
 import styles from "./CoinDetails.module.css";
 import { coinDetaill } from '../backend'
 import { IoPulseOutline } from "react-icons/io5";
+import CoinChart from '../CoinChart/CoinChart';
 
 
 
@@ -67,7 +68,8 @@ return (
       </div>
 
       <div className={styles.right}>
-        right
+        
+        <CoinChart />
       </div>
 
     </div>

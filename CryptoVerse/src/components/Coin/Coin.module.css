@@ -41,9 +41,10 @@
 .img {
 
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     box-shadow: 0 0 30px rgba(243, 242, 242, 0.452);
+
 }
 .name1{
     width: 150px;
@@ -55,14 +56,13 @@
 
     width: 200px;
     text-align: center;
+   
 
 
 }
-.rank{
-    text-align: end;
-   
-   
-    width: 100px;
+.rank1{
+    text-align: end; 
+    width: 80px;
 }
 .btns{
     display: flex;
