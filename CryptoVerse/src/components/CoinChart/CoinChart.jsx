@@ -41,7 +41,7 @@ const [days, setDays] = useState(1)
 
     useEffect(()=>{
         CoinChartData()
-    },[])
+    },[id,days])
 
 
 const myData={
@@ -56,7 +56,7 @@ const myData={
     datasets:[{
         labels: `Price in the past days ${days}`,
         data: chartData.map((value)=>value[1]),
-        borderColor:'blue',
+        borderColor:'orange',
         borderWidth:'3'
     }]
     
@@ -65,20 +65,27 @@ const myData={
   return (
     <div>
         <Line style={{
-            width:"800px",
+            width:"700px",
             height:"400px",
-            marginTop:"40px",
+            marginTop:"80px",
             marginRight:"30px"
 
             
         }} data={myData} options={{
             elements:{
                 point:{
-                    radius:0
+                    radius:0,
+                    
                 }
             }
         }} />
+        <div className={styles.btns}>
+        <button onClick={()=>setDays(1)} className={styles.btn}>24 Hours</button> 
+        <button onClick={()=>setDays(30)} className={styles.btn}>1 Month</button>
+        <button onClick={()=>setDays(365)} className={styles.btn}>1 Year</button>
+      </div>
     </div>
+    
   )
 }
 

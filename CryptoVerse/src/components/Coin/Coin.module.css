@@ -15,18 +15,85 @@
 .card {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 15px;
     width: 90%;
     height: 100px;
+    gap: 3px;
 
     background-color: rgb(36, 36, 36);
     margin-left: 60px;
     border-radius: 10px;
     transition: all ease-in-out 0.1s;
     cursor: pointer;
+    font-size: 19px;
 
 }
+.card :nth-child(2){
+    /* background-color: aqua; */
+    height: 100%;
+    width: 20%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card1 :nth-child(1){
+    /* background-color: aqua; */
+    height: 100%;
+    width: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card1 :nth-child(2){
+    /* background-color: aqua; */
+    height: 100%;
+    width: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card :nth-child(3){
+   
+    height: 100%;
+    width: 20%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card1 :nth-child(3){
+   
+    height: 100%;
+    width: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card :nth-child(4){
+    
+    height: 100%;
+    width: 20%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card1 :nth-child(4){
+    
+    height: 100%;
+    width: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .card:hover  {
     background-color: rgb(255, 123, 0);
@@ -41,29 +108,27 @@
 .img {
 
     display: flex;
-    align-items: start;
+    align-items: center;
     justify-content: center;
     box-shadow: 0 0 30px rgba(243, 242, 242, 0.452);
+   background-color: transparent;
+    /* width: 80px; */
+    margin-left: 90px;
+    
 
 }
 .name1{
     width: 150px;
     text-align: center;
+    
 }
 
 
-.name {
 
-    width: 200px;
-    text-align: center;
-   
-
-
-}
-.rank1{
+/* .rank1{
     text-align: end; 
     width: 80px;
-}
+} */
 .btns{
     display: flex;
     align-items: center;
