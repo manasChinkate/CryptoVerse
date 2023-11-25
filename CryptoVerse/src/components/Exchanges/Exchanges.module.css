@@ -23,7 +23,7 @@
     background-color: rgb(36, 36, 36);
     margin-left: 60px;
     border-radius: 10px;
-    /* transition: all ease-in-out 0s; */
+    
     cursor: pointer;
 
 }
@@ -68,3 +68,39 @@
     background-color: aqua;
     width: 100px;
 } */
+
+@media screen and (max-width:390px){
+    .card{
+        margin-left: 18px;
+        width: 114%;
+    }
+    .name {
+
+        width: 100px;
+        text-align: center;
+    
+    }
+    .rank{
+        text-align: end;
+       
+       
+        width: 50px;
+    }
+    .name1{
+        width: 70px;
+        text-align: center;
+    }
+    .card1{
+        margin-left: 18px;
+        width: 114%;
+        height: 50px;
+    }
+    
+    .rank1{
+        text-align: end;
+       
+       
+        width: 50px;
+    }
+    
+}

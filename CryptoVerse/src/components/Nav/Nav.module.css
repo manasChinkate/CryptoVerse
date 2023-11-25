@@ -46,3 +46,19 @@
     box-shadow: 0 0 30px rgba(117, 189, 22, 0.842);
     
 }
+
+@media screen and (max-width:390px){
+    .main{
+        width: 123%;
+    }
+    .second{
+        font-size: 20px;
+    }
+    .btn{
+        padding: 5px 25px;
+        transition: all ease 0.5s;
+        width: 60px;
+        
+        
+    }
+}

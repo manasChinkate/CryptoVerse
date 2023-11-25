@@ -64,14 +64,21 @@ const myData={
 }
   return (
     <div>
+
+        <div className={styles.top}>
         <Line style={{
             width:"700px",
             height:"400px",
             marginTop:"80px",
-            marginRight:"30px"
+            marginRight:"30px",
+            cursor:"pointer"
 
-            
-        }} data={myData} options={{
+           
+        }
+        
+    
+    
+    } data={myData} options={{
             elements:{
                 point:{
                     radius:0,
@@ -79,6 +86,8 @@ const myData={
                 }
             }
         }} />
+        </div>
+
         <div className={styles.btns}>
         <button onClick={()=>setDays(1)} className={styles.btn}>24 Hours</button> 
         <button onClick={()=>setDays(30)} className={styles.btn}>1 Month</button>

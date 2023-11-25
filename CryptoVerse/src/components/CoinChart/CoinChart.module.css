@@ -23,3 +23,18 @@
     box-shadow: 0 0 30px rgba(117, 189, 22, 0.842);
     
 }
+
+.top{
+    
+    
+    height: 400px;
+}
+@media screen and (max-width:390px){
+    .top{
+    
+        width: 500px;
+        height: 200px;
+        /* background: #9c5e5e; */
+        margin-left: -60px;
+    }
+}

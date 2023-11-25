@@ -69,7 +69,7 @@ const Exchanges = () => {
                         {data.trade_volume_24h_btc.toFixed(0)}
                       </div>
                       <div className={styles.rank}>
-                        {data.trust_score_rank}
+                        #{data.trust_score_rank}
                       </div>
 
                     </div>
