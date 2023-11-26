@@ -59,9 +59,10 @@ margin-top: -20px;
     
 }
 .desc{
-    margin-top: -20px;
+    margin-top: -90px;
     margin-left: 30px;
     width: 350px;
+   
 }
 
 .primary{
@@ -91,9 +92,7 @@ margin-top: -20px;
         padding-left: 40px;
 
     }
-    .right{
-       width:100% ;
-    }
+    
     .desc{
         margin-left: 5px;
         font-size: 15px;
@@ -104,7 +103,7 @@ margin-top: -20px;
     }
     .right{
         
-        height: 100vh;
+        height: 80vh;
         width: 70%;
         
     }

@@ -46,11 +46,11 @@ const CoinDetails = () => {
         <>
           {<div className={styles.wrapper}>
             <div className={styles.left}>
-            <div className={styles.updates}>
-                  Last Updated : {coin.last_updated}
-                </div >
+              <div className={styles.updates}>
+                Last Updated : {coin.last_updated}
+              </div >
               <div className={styles.top}>
-                
+
                 <div className={styles.img}>
                   <img style={{
                     height: "180px"
@@ -77,15 +77,15 @@ const CoinDetails = () => {
                   </div>
                 </div>
               </div>
-            
-            <div className={styles.desc}>
-              {coin.description?.en.split('.')[0]}
-            </div>
+
+              <div className={styles.desc}>
+                {coin.description?.en.split('.')[0]}
+              </div>
             </div>
 
             <div className={styles.right}>
 
-              <CoinChart  />
+              <CoinChart />
             </div>
 
           </div>
