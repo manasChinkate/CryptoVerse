@@ -171,7 +171,7 @@
     }
     .card{
         margin-left: 18px;
-        width: 114%;
+        width: 110%;
     }
     .name {
 
@@ -233,3 +233,68 @@
         margin-left: 90px;
     }
 }
+/* @media screen and (max-width:500px) , (max-width>390px){
+    .card{
+        margin-left: 18px;
+        width: 100%;
+    }
+    .name {
+
+        width: 100px;
+        text-align: center;
+    
+    }
+    .rank{
+        text-align: end;
+       
+       
+        width: 50px;
+    }
+    .name1{
+        width: 70px;
+        text-align: center;
+    }
+    .card1{
+        margin-left: 18px;
+        width: 100%;
+        height: 50px;
+    }
+    
+    .rank1{
+        text-align: end;
+       
+       
+        width: 50px;
+    }
+    .img {
+
+        
+        margin-left: 20px;
+        
+    
+    }
+    .search input{
+       
+        width: 400px;
+        height: 35px;
+        margin-left: 40px;
+        
+        
+    }
+    .btns{
+        display: flex;
+        flex-direction: column;
+        
+        margin-top: 20px;
+        gap: 20px;
+    }
+    .btnwrap{
+        display: flex;
+        align-items: center;
+        justify-items: space-evenly;
+        width: 300px;
+        
+        gap: 30px;
+        margin-left: 50px;
+    }
+} */

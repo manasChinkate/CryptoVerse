@@ -49,14 +49,28 @@
 
 @media screen and (max-width:390px){
     .main{
-        width: 123%;
+        width: 120%;
+        flex-direction: column;
     }
     .second{
-        font-size: 20px;
+        font-size: 19px;
+        gap: 10px;
+        justify-content: center;
+        width: 24px;
+    }
+    .first{
+       
+        gap: 5px;
+        justify-content: center;
+        /* margin-left: -100px; */
+        
+    }
+    .first h1{
+        font-size: 30px;
     }
     .btn{
         padding: 5px 25px;
-        transition: all ease 0.5s;
+        
         width: 60px;
         
         
