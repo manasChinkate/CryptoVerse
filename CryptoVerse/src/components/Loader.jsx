@@ -4,7 +4,7 @@ import styles from "./Loader.module.css";
 
 const Loader = () => {
     return (
-        <div className={styles.loader} style={{ marginTop: "40px", display: "flex", flexDirection: "column", alignItems: "center" }}>
+        <div className={styles.loader} style={{ marginTop: "40px", display: "flex", flexDirection: "column", alignItems: "center",  }}>
             <TailSpin
                 height="80"
                 width="80"

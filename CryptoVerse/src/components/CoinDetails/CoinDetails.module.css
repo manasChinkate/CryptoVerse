@@ -1,167 +1,142 @@
-.wrapper{
+.wrapper {
     width: 100%;
     display: flex;
     align-items: center;
-    
-    
-    
+
+
+
 }
-.left{
+
+.left {
     background-color: rgb(0, 0, 0);
     height: 100vh;
     width: 40%;
     display: flex;
     flex-direction: column;
     align-items: start;
-    gap:30px;
+    gap: 30px;
     padding-left: 15x;
-    
-    
+
+
 }
-.right{
-    
+
+.right {
+
     height: 100vh;
     width: 70%;
 }
-.img{
+
+.img {
     margin-left: 20px;
 }
-.updates{
+
+.updates {
     margin-top: 20px;
     font-size: 15px;
     color: red;
     margin-left: 20px;
 }
 
-.name{
-font-size: 30px;
-font-weight: 800;
-margin-left: 30px;
-margin-top: -20px;
+.name {
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 30px;
+    margin-top: -20px;
 }
-.price{
+
+.price {
     margin-top: -20px;
     margin-left: 30px;
 }
-.trade{
+
+.trade {
     margin-top: -20px;
     text-align: center;
-    margin-left: 30px;    
+    margin-left: 30px;
     color: blueviolet;
 }
-.rank{
+
+.rank {
     margin-top: -20px;
     margin-left: 30px;
     font-size: 20px;
     /* background-color: aliceblue; */
     display: flex;
     gap: 5px;
-    
+
 }
-.desc{
+
+.desc {
     margin-top: -90px;
     margin-left: 30px;
     width: 350px;
-   
+
 }
 
-.primary{
+.primary {
     height: 200px;
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
-.top{
+
+.top {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 40px;
-    
+
     height: 450px;
 }
 
 @media screen and (max-width:390px) {
-    .wrapper{
+    .wrapper {
         flex-direction: column;
-        
+
     }
-    .left{
-      
+
+    .left {
+
         height: 400px;
         width: 100%;
         padding-left: 10px;
 
     }
-    
-    .desc{
+
+    .desc {
         margin-left: 5px;
         margin-top: 5px;
         font-size: 15px;
         height: 120px;
         width: 350px;
         padding-left: 10px;
-       
-        
+
+
     }
-    .right{
-        
+
+    .right {
+
         height: 80vh;
         width: 70%;
-        
+
     }
-    .top{
-        
-        flex-direction: row;       
+
+    .top {
+
+        flex-direction: row;
         gap: 15px;
-        height:200px;
-   
+        height: 200px;
+
     }
-    .primary{
+
+    .primary {
         margin-top: 20px;
-        
+
     }
-   
-    
+
+
 }
 
-/* @media screen and (max-width:500px) , (max-width:391px)  {
-    .wrapper{
-        flex-direction: column;
-        
-    }
-    .left{
-      
-        height: 400px;
-        width: 100%;
-        padding-left: 40px;
-
-    }
+@media screen and (max-width:500px) {
     
-    .desc{
-        margin-left: 5px;
-        margin-top: 10px;
-        font-size: 15px;
-        height: 120px;
-        width: 424px;
-       
-        
-    }
-    .right{
-        
-        height: 80vh;
-        width: 70%;
-        
-    }
-    .top{
-        
-        flex-direction: row;       
-        gap: 55px;
-        height:200px;
-   
-    }
-    .primary{
-        margin-top: 25px;
-    }
-   
-    
-} */
+}

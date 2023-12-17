@@ -22,6 +22,7 @@
 
     background-color: rgb(36, 36, 36);
     margin-left: 60px;
+    /* margin-right: 60px; */
     border-radius: 10px;
     
     cursor: pointer;
@@ -71,8 +72,8 @@
 
 @media screen and (max-width:390px){
     .card{
-        margin-left: 18px;
-        width: 110%;
+        
+        width: auto;
     }
     .name {
 
@@ -103,4 +104,40 @@
         width: 50px;
     }
     
+}
+
+@media screen and (max-width:500px){
+    .card{
+        
+        width: auto;
+        margin: auto 20px 10px;
+    }
+    .name {
+
+        width: 100px;
+        text-align: center;
+    
+    }
+    .rank{
+        text-align: end;
+       
+       
+        width: 50px;
+    }
+    .name1{
+        width: 70px;
+        text-align: center;
+    }
+    .card1{
+        margin-left: 18px;
+        width: auto;
+        height: 50px;
+    }
+    
+    .rank1{
+        text-align: end;
+       
+       
+        width: 50px;
+    }
 }

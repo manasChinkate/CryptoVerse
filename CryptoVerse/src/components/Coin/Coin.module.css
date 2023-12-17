@@ -166,13 +166,12 @@
 
 @media screen and (max-width:390px){
     .card{
-        margin-left: 18px;
-        width: 114%;
+       
+        width: auto;
+        font-size: 14px;
+        margin: 0px;
     }
-    .card{
-        margin-left: 18px;
-        width: 110%;
-    }
+ 
     .name {
 
         width: 100px;
@@ -210,9 +209,8 @@
     }
     .search input{
        
-        width: 400px;
-        height: 35px;
-        margin-left: 80px;
+        width: auto;
+        
         
         
     }
@@ -230,13 +228,22 @@
         width: 300px;
         
         gap: 30px;
-        margin-left: 90px;
+        
+    }
+    .card :nth-child(3){
+   
+        height: 100%;
+        width: 30%;
+        
+        
+        
     }
 }
-/* @media screen and (max-width:500px) , (max-width>390px){
+@media screen and (max-width:500px){
     .card{
-        margin-left: 18px;
-        width: 100%;
+        margin: 10px 30px;
+        width: auto;
+        padding: 10px;
     }
     .name {
 
@@ -244,42 +251,10 @@
         text-align: center;
     
     }
-    .rank{
-        text-align: end;
-       
-       
-        width: 50px;
-    }
-    .name1{
-        width: 70px;
-        text-align: center;
-    }
-    .card1{
-        margin-left: 18px;
-        width: 100%;
-        height: 50px;
-    }
-    
-    .rank1{
-        text-align: end;
-       
-       
-        width: 50px;
-    }
     .img {
 
-        
-        margin-left: 20px;
-        
-    
-    }
-    .search input{
-       
-        width: 400px;
-        height: 35px;
-        margin-left: 40px;
-        
-        
+        margin-left: 0px;
+
     }
     .btns{
         display: flex;
@@ -288,13 +263,18 @@
         margin-top: 20px;
         gap: 20px;
     }
-    .btnwrap{
-        display: flex;
-        align-items: center;
-        justify-items: space-evenly;
-        width: 300px;
+    .search input{
+       
+        width: 400px;
+        height: 35px;
+        margin-left: 0px;
+        margin-right: 15px;
         
-        gap: 30px;
-        margin-left: 50px;
+        
     }
-} */
+    .card1{
+        margin: 10px 30px;
+        width: auto;
+        padding: 10px;
+    }
+}

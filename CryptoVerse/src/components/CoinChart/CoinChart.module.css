@@ -42,21 +42,15 @@
     }
     
 }
-/* @media screen and (max-width:500px) , (max-width>390px){
-    .top{
+@media screen and (max-width:500px){
+.btns{
+    margin-right: 20px;
+}
+.top{
+    height: 278px;
+}
+canvas{
+    margin-left: 20px;
     
-        width: 400px;
-        height: 250px;
-        /* background: #9c5e5e; */
-        /* margin-left: -30px;
-        padding: 10px; */
-    /* }
-    .btns{ */
-        /* display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 10px;
-        gap: 20px;
-    }
-
-} */ 
+}
+}
